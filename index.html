@@ -4,10 +4,119 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+  <!-- Link to css style sheet -->
+  <link href="css/myStyle.css" rel="stylesheet" type="text/css">
+
+  </style>
 </head>
 
-<body>
 
+<body>
+<div class="wrapper">
+    <!--NAV SECTION-->
+    <nav class="page-nav">
+      <ul class="nav-links">
+        <li><a href="#">View Music</a></li>
+        <li><a href="#">Add Music</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+    <!--LEFT BOX -->
+    <section class="left-col">
+    <fieldset>
+      <legend for="song-length">Song Length:</legend>
+      <input type="range" class="slider-range" value="60" step="1">
+    </fieldset>
+
+    <fieldset>
+      <legend>Artist:</legend>
+      <select>
+        <!-- Adds Select Artics option but Disables Selecting of this text -->
+        <option disabled="disabled" selected="selected">Select Artist</option>
+        <optgroup id="artist-name">
+          <option>Bon Jovi</option>
+          <option>Aerosmith</option>
+          <option>Def Leppard</option>
+          <option>Van Halen</option>
+          <option>Styx</option>
+        </optgroup>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Album:</legend>
+      <select>
+        <!-- Adds Select Artics option but Disables Selecting of this text -->
+        <option disabled="disabled" selected="selected">Select Album</option>
+        <optgroup id="artist-name">
+          <option>Slippery When Wet</option>
+          <option>Pump</option>
+          <option>Hysteria</option>
+          <option>1984</option>
+          <option>The Grand Illusion</option>
+        </optgroup>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend for="genre">Genre:</legend>
+        <div class="check-box-div clearfix">
+          <!-- First Box on the Left-->
+          <div class="left-check-box">
+          <input type="checkbox" name="rock" value="rock"> Rock
+          <br>
+          <input type="checkbox" name="classical" value="clasical"> Classical
+          <br>
+          <input type="checkbox" name="pop" value="pop"> Pop
+          </div>
+          <!-- Second Box on the Right-->
+          <div class="right-check-box">
+          <input type="checkbox" name="jazz" value="jazz"> Jazz
+          <br>
+          <input type="checkbox" name="blues" value="blues"> Blues
+          <br>
+          <input type="checkbox" name="hip-hop" value="hip-hop"> Hip
+          </div>
+        <div>
+    </fieldset>
+
+    <!-- Submint Button Section -->
+    <div class="submit-button">
+    <input type="submit" value="Filter"></input>
+    </div>
+    </section>
+
+
+    <!-- RIGHT BOX -->
+    <section class="right-col">
+      <div>
+        <h2>Song Name</h2>
+      </div>
+      <div>
+        <h4>Artist Name | Album Name | Genre</h4>
+      </div>
+      <div>
+        <h2>Song Name</h2>
+      </div>
+      <div>
+        <h4>Artist Name | Album Name | Genre</h4>
+      </div>
+      <div>
+        <h2>Song Name</h2>
+      </div>
+      <div>
+        <h4>Artist Name | Album Name | Genre</h4>
+      </div>
+      <div>
+        <h2>Song Name</h2>
+      </div>
+      <div>
+        <h4>Artist Name | Album Name | Genre</h4>
+      </div>
+    </section>
+
+  <!--CLOSING WRAPPER DIV-->
+  </div>
 
 </body>
 </html>

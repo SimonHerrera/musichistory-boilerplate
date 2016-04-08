@@ -1,0 +1,128 @@
+* {
+	box-sizing: border-box
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+
+
+/*wapper section*/
+
+
+.wrapper {
+	width: 80%;
+	margin: auto;
+  min-width: 1200px;
+}
+
+
+/*Nav Section*/
+
+.page-nav {
+  width: 100%;
+  background-color:  #FFB4B0;
+  padding: 0 5%;
+  margin-bottom: 3%;
+  border: 2px solid black;
+}
+
+.page-nav li {
+  display: inline;
+}
+
+.nav-links > li:not(:last-child):after {
+  content: " | ";
+}
+
+
+
+/* Fieldset Styling - Get rid of borders on Labels*/
+
+fieldset {
+  margin: 15px;
+  border: 0;
+}
+
+
+/*Left and Right Column Styling and Floating*/
+
+.left-col {
+  width: 25%;
+  float: left;
+  background-color: #4DD7FA;
+  border: 1px solid red
+}
+
+.right-col {
+  width: 70%;
+  float: right;
+  background-color: #FEFAC0;
+  border: 1px solid red
+}
+
+/*Styling of Divs in Right Column*/
+
+.right-col div {
+  margin-left: 5%;
+  border: 1px solid red;
+  color: #785616;
+}
+
+
+/*Used only to show all 3 divs inside the left column*/
+/*.left-col div {
+  border: 2px solid red;
+}*/
+
+/*Trying to style the Leftg Column check box area*/
+
+
+.check-box-div {
+  /*overflow: hidden;*/
+  width: 100%;
+  padding-left: 10px;
+  /*height: 150px;*/
+  /*display: inline;*/
+}
+
+.left-check-box {
+  float: left;
+  width: 45%;
+}
+
+.right-check-box{
+  float: right;
+  width: 35%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/*Styling of Slider Range - Width*/
+.slider-range {
+  width: 100%;
+}
+
+/*Submit button in the Checkbox Area*/
+
+.submit-button {
+  text-align: center;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+/*H4 styling just to even out Left and Right Columns*/
+
+h4 {
+  margin-top: 7px;
+}
