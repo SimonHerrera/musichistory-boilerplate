@@ -12,9 +12,9 @@ body {
 
 
 .wrapper {
-	width: 80%;
+	width: 70%;
 	margin: auto;
-  min-width: 1200px;
+  min-width: 1000px;
 }
 
 
@@ -23,7 +23,7 @@ body {
 .page-nav {
   width: 100%;
   background-color:  #FFB4B0;
-  padding: 0 5%;
+  padding: 0 10px;
   margin-bottom: 3%;
   border: 2px solid black;
 }
@@ -41,7 +41,7 @@ body {
 /* Fieldset Styling - Get rid of borders on Labels*/
 
 fieldset {
-  margin: 15px;
+  margin: 15px 5px 15px;
   border: 0;
 }
 
@@ -52,22 +52,25 @@ fieldset {
   width: 25%;
   float: left;
   background-color: #4DD7FA;
-  border: 1px solid red
+  border: 2px solid black
 }
 
 .right-col {
-  width: 70%;
+  width: 73%;
   float: right;
   background-color: #FEFAC0;
-  border: 1px solid red
+  padding: 15px 0px;
+  border: 2px solid black
+
 }
 
 /*Styling of Divs in Right Column*/
 
 .right-col div {
   margin-left: 5%;
-  border: 1px solid red;
   color: #785616;
+  /*border: 1px solid red;*/
+
 }
 
 
@@ -82,7 +85,7 @@ fieldset {
 .check-box-div {
   /*overflow: hidden;*/
   width: 100%;
-  padding-left: 10px;
+  padding-left: 5px;
   /*height: 150px;*/
   /*display: inline;*/
 }
@@ -97,13 +100,6 @@ fieldset {
   width: 35%;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
 
 /*Styling of Slider Range - Width*/
 .slider-range {
@@ -111,7 +107,6 @@ fieldset {
 }
 
 /*Submit button in the Checkbox Area*/
-
 .submit-button {
   text-align: center;
 }
@@ -121,8 +116,20 @@ fieldset {
   border-radius: 10%;
 }
 
-/*H4 styling just to even out Left and Right Columns*/
 
-h4 {
-  margin-top: 7px;
+/*Clearfix*/
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
+
+/*H4 styling just to even out Left and Right Columns*/
+h2 {
+  margin-bottom: 10px;
+}
+
+h4{
+  margin-top: 6px;
+}
+
