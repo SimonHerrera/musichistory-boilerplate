@@ -6,6 +6,26 @@ body {
 	font-family: Arial, sans-serif;
 }
 
+/*Styling on Links LOVE Link, Visited, Hover, Active*/
+
+a:link {
+  color: darkblue;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: red;
+}
+
+
+
 
 
 /*wapper section*/
@@ -15,13 +35,13 @@ body {
 	width: 70%;
 	margin: auto;
   min-width: 1000px;
+  /*border: 3px solid red;*/
 }
 
 
 /*Nav Section*/
 
 .page-nav {
-  width: 100%;
   background-color:  #FFB4B0;
   padding: 0 10px;
   margin-bottom: 3%;
@@ -36,7 +56,12 @@ body {
   content: " | ";
 }
 
+/*Remove Bullets from all <li>s*/
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
 
 /* Fieldset Styling - Get rid of borders on Labels*/
 
@@ -59,7 +84,7 @@ fieldset {
   width: 73%;
   float: right;
   background-color: #FEFAC0;
-  padding: 15px 0px;
+  padding: 15px 0px 45px;
   border: 2px solid black
 
 }
@@ -92,12 +117,12 @@ fieldset {
 
 .left-check-box {
   float: left;
-  width: 45%;
+  width: 55%;
 }
 
 .right-check-box{
   float: right;
-  width: 35%;
+  width: 45%;
 }
 
 
@@ -109,13 +134,13 @@ fieldset {
 /*Submit button in the Checkbox Area*/
 .submit-button {
   text-align: center;
+  margin-bottom: 20px;
 }
 
-.button {
+button {
   border: 1px solid black;
   border-radius: 10%;
 }
-
 
 /*Clearfix*/
 .clearfix::after {
@@ -126,10 +151,11 @@ fieldset {
 
 /*H4 styling just to even out Left and Right Columns*/
 h2 {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
-h4{
+h5{
+  color: black;
   margin-top: 6px;
 }
 
