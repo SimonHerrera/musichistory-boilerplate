@@ -7,30 +7,20 @@ body {
 }
 
 /*Styling on Links LOVE Link, Visited, Hover, Active*/
-
 a:link {
   color: darkblue;
 }
-
 a:visited {
   color: darkblue;
 }
-
 a:hover {
   color: black;
 }
-
 a:active {
   color: red;
 }
 
-
-
-
-
 /*wapper section*/
-
-
 .wrapper {
 	width: 70%;
 	margin: auto;
@@ -38,9 +28,7 @@ a:active {
   /*border: 3px solid red;*/
 }
 
-
 /*Nav Section*/
-
 .page-nav {
   background-color:  #FFB4B0;
   padding: 0 10px;
@@ -57,47 +45,38 @@ a:active {
 }
 
 /*Remove Bullets from all <li>s*/
-
 ul {
   list-style-type: none;
   padding: 0;
 }
 
 /* Fieldset Styling - Get rid of borders on Labels*/
-
 fieldset {
   margin: 15px 5px 15px;
   border: 0;
 }
 
-
 /*Left and Right Column Styling and Floating*/
-
 .left-col {
   width: 25%;
   float: left;
   background-color: #4DD7FA;
   border: 2px solid black
 }
-
-.right-col {
+#right-col {
   width: 73%;
   float: right;
   background-color: #FEFAC0;
   padding: 15px 0px 45px;
   border: 2px solid black
-
 }
 
 /*Styling of Divs in Right Column*/
-
-.right-col div {
+#right-col div {
   margin-left: 5%;
   color: #785616;
   /*border: 1px solid red;*/
-
 }
-
 
 /*Used only to show all 3 divs inside the left column*/
 /*.left-col div {
@@ -105,26 +84,18 @@ fieldset {
 }*/
 
 /*Trying to style the Leftg Column check box area*/
-
-
 .check-box-div {
-  /*overflow: hidden;*/
   width: 100%;
   padding-left: 5px;
-  /*height: 150px;*/
-  /*display: inline;*/
 }
-
 .left-check-box {
   float: left;
   width: 55%;
 }
-
 .right-check-box{
   float: right;
   width: 45%;
 }
-
 
 /*Styling of Slider Range - Width*/
 .slider-range {
@@ -139,6 +110,7 @@ fieldset {
 
 button {
   border: 1px solid black;
+  padding: 5px;
   border-radius: 10%;
 }
 
@@ -153,7 +125,6 @@ button {
 h2 {
   margin-bottom: 16px;
 }
-
 h5{
   color: black;
   margin-top: 6px;
