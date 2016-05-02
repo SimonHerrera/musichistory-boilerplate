@@ -22,9 +22,9 @@ a:active {
 
 /*wapper section*/
 .wrapper {
-	width: 70%;
+	width: 85%;
 	margin: auto;
-  min-width: 1000px;
+  min-width: 900px;
   /*border: 3px solid red;*/
 }
 
@@ -53,48 +53,58 @@ ul {
 /* Fieldset Styling - Get rid of borders on Labels*/
 fieldset {
   margin: 15px 5px 15px;
-  border: 0;
+  /*border: 0;*/
 }
 
 /*Left and Right Column Styling and Floating*/
 .left-col {
-  width: 25%;
+  width: 33%;
   float: left;
   background-color: #4DD7FA;
-  border: 2px solid black
+  border: 2px solid black;
+  min-width: 300px;
 }
-#right-col {
-  width: 73%;
+
+/* Hide Different Views - not used*/
+#music-list {
+  display: block;
+}
+
+#add-form {
+  display: none;
+}
+
+/* Style Views */
+.main-sec-style {
+  width: 66%;
   float: right;
   background-color: #FEFAC0;
   padding: 15px 0px 45px;
-  border: 2px solid black
+  border: 2px solid black;
 }
 
 /*Styling of Divs in Right Column*/
-#right-col div {
+.main-sec-style div {
   margin-left: 5%;
   color: #785616;
   /*border: 1px solid red;*/
 }
 
-/*Used only to show all 3 divs inside the left column*/
-/*.left-col div {
-  border: 2px solid red;
-}*/
 
 /*Trying to style the Leftg Column check box area*/
 .check-box-div {
   width: 100%;
-  padding-left: 5px;
+  padding-left: 1px;
 }
 .left-check-box {
   float: left;
-  width: 55%;
+  width: 50%;
+  min-width: 125px;
 }
 .right-check-box{
   float: right;
-  width: 45%;
+  width: 50%;
+  min-width: 125px;
 }
 
 /*Styling of Slider Range - Width*/
@@ -106,6 +116,18 @@ fieldset {
 .submit-button {
   text-align: center;
   margin-bottom: 20px;
+}
+
+#add-song-button {
+  color: white;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background: red;
+}
+#add-song-area {
+  text-align: center;
 }
 
 button {

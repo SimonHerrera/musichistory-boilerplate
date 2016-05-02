@@ -8,16 +8,14 @@
   <link href="css/myStyle.css" rel="stylesheet" type="text/css">
 
 </head>
-
-
 <body>
 <!-- Wrapper that contains page - Set to 70% and Clearfix so it extends to bottom-->
   <div class="wrapper clearfix">
     <!--NAV SECTION-->
     <nav class="page-nav">
       <ul class="nav-links">
-        <li id="view-music"><a href="#">View Music</a></li>
-        <li id="add-music"><a href="#">Add Music</a></li>
+        <li id="view-link" class="cycle-links"><a href="#">View Music</a></li>
+        <li id="add-link" class="cycle-links"><a href="#">Add Music</a></li>
       </ul>
     </nav>
 
@@ -64,72 +62,32 @@
           <!-- First Box on the Left-->
           <div class="left-check-box">
             <ul>
-              <li><input type="checkbox" name="rock" value="rock"> Rock</li>
-              <li><input type="checkbox" name="pop" value="pop"> Pop</li>
-              <li><input type="checkbox" name="blues" value="blues"> Blues</li>
+              <li><input type="checkbox" name="rock" value="rock">Rock</li>
+              <li><input type="checkbox" name="pop" value="pop">Pop</li>
+              <li><input type="checkbox" name="blues" value="blues">Classic Rock</li>
             </ul>
           </div>
           <div class="right-check-box">
           <ul>
-              <li><input type="checkbox" name="classical" value="clasical"> Classical</li>
-              <li><input type="checkbox" name="jazz" value="jazz"> Jazz</li>
-              <li><input type="checkbox" name="hip-hop" value="hip-hop"> Hip Hop</li>
+              <li><input type="checkbox" name="classical" value="clasical">Hair Bands</li>
+              <li><input type="checkbox" name="jazz" value="jazz">Light Rock</li>
+              <li><input type="checkbox" name="hip-hop" value="hip-hop">Alternative</li>
             </ul>
           </div>
     </fieldset>
 
-    <!-- Submint Button Section -->
+    <!-- Submit Button Section -->
     <div class="submit-button">
       <button type="submit" value="Submit">Filter</button>
       <!--<input type="submit" value="Filter"></input>-->
     </div>
     </section>
 
-    <!-- RIGHT BOX -->
-    <div id="right-col">
-<!--    <div>
-         <h2 id="song-name1" >Song Name</h2>
-        </div>
-        <div>
-          <h5 id="artist-info1" >Artist Name | Album Name | Genre</h5>
-        </div>
-        <div>
-          <h2 id="song-name2">Song Name</h2>
-        </div>
-        <div>
-          <h5 id="artist-info2">Artist Name | Album Name | Genre</h5>
-        </div>
-        <div>
-          <h2 id="song-name3">Song Name</h2>
-        </div>
-        <div>
-          <h5 id="artist-info3">Artist Name | Album Name | Genre</h5>
-        </div>
-        <div>
-          <h2 id="song-name4">Song Name</h2>
-        </div>
-        <div>
-          <h5 id="artist-info4">Artist Name | Album Name | Genre</h5>
-        </div>
-        <div>
-          <h2 id="song-name5">Song Name</h2>
-        </div>
-        <div>
-          <h5 id="artist-info5">Artist Name | Album Name | Genre</h5>
-        </div>
-        <div>
-          <h2 id="song-name6">Song Name</h2>
-        </div>
-        <div>
-          <h5 id="artist-info6">Artist Name | Album Name | Genre</h5>
-        </div>
-        <div>
-          <h2 id="song-name7">Song Name</h2>
-        </div>
-        <div>
-          <h5 id="artist-info7">Artist Name | Album Name | Genre</h5>
-        </div> -->
-    </div>
+    <!-- RIGHT BOX - LIST MUSIC -->
+    <div id="music-list" class="main-sec-style"></div>
+
+     <!-- RIGHT BOX - ADD MUSIC -->
+    <div id="add-form" class="main-sec-style"></div>
 
   <!--CLOSING WRAPPER DIV-->
   </div>
@@ -137,3 +95,4 @@
   <script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
+
